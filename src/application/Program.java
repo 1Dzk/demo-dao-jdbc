@@ -41,7 +41,7 @@ public class Program {
 		
 		
 		System.out.println("\n==== Test 5: Seller Update ====");
-		seller = sellerDao.findById(22);
+		seller = sellerDao.findById(1);
 		seller.setName("Marta");
 		sellerDao.update(seller);
 		System.out.println("Update Completed!");
